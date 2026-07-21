@@ -1,0 +1,27 @@
+# EDA Simulation Libraries & Temporary Files
+work/
+*.qdb
+*.qpg
+*.qtl
+*.wlf
+*.mpas
+*.vstf
+
+# Waveform Dump Files
+*.vcd
+*.fsdb
+*.evcd
+
+# Simulation Logs & Outputs
+transcript
+modelsim.ini
+*.log
+*.jou
+*.pb
+sim_output.txt
+
+# OS & Editor Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
