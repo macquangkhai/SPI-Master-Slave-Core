@@ -27,25 +27,6 @@ A fully synthesis-ready, glitch-free **Serial Peripheral Interface (SPI) Master 
 
 ## Block Diagram
 
-```mermaid
-graph LR
-    subgraph SPI Master Core
-        M_Ctrl[Master Controller & FSM]
-        SCK_Gen[Synchronous SCK Generator]
-        M_Shift[TX/RX Shift Registers]
-    end
-
-    subgraph SPI Slave Core
-        S_Ctrl[Slave Controller]
-        S_Shift[TX/RX Shift Registers]
-        TriState[Tri-State MISO Buffer]
-    end
-
-    SCK_Gen -- SCK --> S_Ctrl
-    M_Ctrl -- CS_n --> S_Ctrl
-    M_Shift -- MOSI --> S_Ctrl
-    TriState -- MISO --> M_Shift
-```
 
 ---
 
