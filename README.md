@@ -9,7 +9,7 @@ A fully synthesis-ready, glitch-free **Serial Peripheral Interface (SPI) Master 
 
 ---
 
-## 🌟 Key Architecture & Features
+## Key Architecture & Features
 
 ### 1. Synchronous Glitch-Free SCK Generation
 * Generates serial clock `SCK` via a synchronous counter driven by system clock `clk`.
@@ -25,7 +25,7 @@ A fully synthesis-ready, glitch-free **Serial Peripheral Interface (SPI) Master 
 
 ---
 
-## 📐 Block Diagram
+## Block Diagram
 
 ```mermaid
 graph LR
@@ -49,7 +49,7 @@ graph LR
 
 ---
 
-## 📊 Verification & Waveform Results
+## Verification & Waveform Results
 
 The testbench (`tb/tb.v`) verifies full-duplex transactions between SPI Master and Slave cores.
 
@@ -62,7 +62,7 @@ The testbench (`tb/tb.v`) verifies full-duplex transactions between SPI Master a
 
 ---
 
-## 🚀 How to Run Simulation
+## How to Run Simulation
 
 ### Prerequisites
 * EDA Tool: QuestaSim / ModelSim (Intel FPGA Edition or standard).
@@ -80,7 +80,7 @@ The testbench (`tb/tb.v`) verifies full-duplex transactions between SPI Master a
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 SPI-Master-Slave-Core/
@@ -99,6 +99,17 @@ SPI-Master-Slave-Core/
 
 ---
 
-## 👤 Author
+## Author
 
 * **Role:** RTL Design & Verification Engineer
+
+<h3>Contact Me</h3>
+<p>
+  <a href="[https://github.com/macquangkhai](https://github.com/macquangkhai)">
+    <img src="https://img.shields.io/badge/GitHub-MacQuangKhai-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  
+  <a href="mailto:khaimac616@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-khaimac616%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
